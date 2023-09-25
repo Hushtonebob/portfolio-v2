@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Inter-Medium";
+    src: local('Inter-Medium.ttf'),
+    url('/src/fonts/Inter-Medium.ttf');
+}
+
+.DarkColorButton{
+    font-family: 'Inter-Medium';
+    background:#EFEFF0;
+    color: #121212;
+    position: relative;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow-x: none;
+    transition: 1s;
+}
+
+#DarkButtonText{
+    position: absolute;
+    width:100px;
+    margin: 0;
+    top: 50%; 
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+.LightColorButton{
+    font-family: 'Inter-Medium';
+    background-color: #121212;
+    color:#EFEFF0;
+    position: relative;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow-x: none;
+    transition: 1s;
+}
+#LightButtonText{
+    position: absolute;
+    width:100px;
+    margin: 0;
+    top: 50%; 
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }
